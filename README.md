@@ -3,7 +3,7 @@
 client = Aws::CognitoIdentity::Client.new(
   region: 'ap-northeast-1',
   access_key_id: 'access_key',
-  secret_access_key: 'secret_key'
+  secret_access_key: 'fafafaafafsecret_key'
 )
 
 cognitoidentityprovider = Aws::CognitoIdentityProvider::Client.new(
